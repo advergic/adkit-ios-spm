@@ -1,0 +1,43 @@
+{
+  "app": {
+    "build": 5,
+    "bundle_id": "com.ir.rental.car.driving.simulator",
+    "version": "0.5"
+  },
+  "os": {
+    "api_level": 34,
+    "name": "Android",
+    "version": "14"
+  },
+  "session": {"id": "0f7c2a1e-5b93-4c8d-9a12-7e4f1b6d3c40"},
+  "privacy": {"limit_ad_tracking": false},
+  "sdk": {
+    "name": "advkit-android",
+    "wrapper": "unity",
+    "wrapper_version": "0.1.4",
+    "version": "0.1.4"
+  },
+  "sentAt": "2026-09-10T12:00:30.000Z",
+  "device": {
+    "timezone": "Asia/Karachi",
+    "advertising_id": "38400000-8cf0-11bd-b23e-10b96e40000d",
+    "screen": {
+      "density_dpi": 480,
+      "width_px": 1080,
+      "height_px": 2400
+    },
+    "model": "TECNO KJ5",
+    "locale": "en_PK",
+    "brand": "TECNO",
+    "manufacturer": "TECNO",
+    "is_emulator": false
+  },
+  "events": [{
+    "occurredAt": "2026-09-10T12:00:00.000Z",
+    "name": "session.start"
+  }],
+  "network": {
+    "carrier": "Telenor",
+    "connection": {"type": "wifi"}
+  }
+}

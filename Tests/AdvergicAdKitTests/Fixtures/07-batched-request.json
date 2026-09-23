@@ -1,0 +1,172 @@
+{
+  "app": {
+    "build": 5,
+    "bundle_id": "com.ir.rental.car.driving.simulator",
+    "version": "0.5"
+  },
+  "os": {
+    "api_level": 34,
+    "name": "Android",
+    "version": "14"
+  },
+  "session": {"id": "0f7c2a1e-5b93-4c8d-9a12-7e4f1b6d3c40"},
+  "privacy": {"limit_ad_tracking": false},
+  "sdk": {
+    "name": "advkit-android",
+    "wrapper": "unity",
+    "wrapper_version": "0.1.4",
+    "version": "0.1.4"
+  },
+  "sentAt": "2026-09-10T12:00:30.000Z",
+  "device": {
+    "timezone": "Asia/Karachi",
+    "advertising_id": "38400000-8cf0-11bd-b23e-10b96e40000d",
+    "screen": {
+      "density_dpi": 480,
+      "width_px": 1080,
+      "height_px": 2400
+    },
+    "model": "TECNO KJ5",
+    "locale": "en_PK",
+    "brand": "TECNO",
+    "manufacturer": "TECNO",
+    "is_emulator": false
+  },
+  "events": [
+    {
+      "occurredAt": "2026-09-10T12:00:00.000Z",
+      "name": "session.start"
+    },
+    {
+      "runner_up": {
+        "price": 0.015,
+        "price_type": "observed",
+        "network": "YANDEX"
+      },
+      "occurredAt": "2026-09-10T12:00:12.000Z",
+      "winner": {
+        "ad_unit_id": "1203948571_2049581",
+        "price": 0.0184,
+        "price_type": "bid",
+        "currency": "USD",
+        "network": "META"
+      },
+      "name": "auction.completed",
+      "placement": {"name": "home_banner"},
+      "auction": {
+        "price_gap": 0.0034,
+        "request": "banner 320x50",
+        "candidate_count": 4,
+        "id": "a3f1c9d2-77b4-4e01-8c6a-2d5b9f0e1a83",
+        "observed_count": 1,
+        "bidder_count": 1
+      },
+      "participants": [
+        {
+          "ad_unit_id": "1203948571_2049581",
+          "price": 0.0184,
+          "rank": 1,
+          "price_type": "bid",
+          "currency": "USD",
+          "label": "meta-banner-hi",
+          "floor": 0.012,
+          "network": "META"
+        },
+        {
+          "ad_unit_id": "R-M-1884412-3",
+          "price": 0.015,
+          "rank": 2,
+          "price_type": "observed",
+          "currency": "USD",
+          "label": "yandex-banner",
+          "floor": 0.01,
+          "network": "YANDEX"
+        },
+        {
+          "ad_unit_id": "980114422",
+          "price": 0.009,
+          "rank": 3,
+          "price_type": "floor",
+          "currency": "USD",
+          "label": "pangle-banner",
+          "floor": 0.009,
+          "network": "PANGLE"
+        },
+        {
+          "ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
+          "price": 0.005,
+          "rank": 4,
+          "price_type": "floor",
+          "currency": "USD",
+          "label": "admob-backfill",
+          "floor": 0.005,
+          "network": "ADMOB_TEST"
+        }
+      ]
+    },
+    {
+      "chain": {
+        "tier": 1,
+        "size": 4
+      },
+      "occurredAt": "2026-09-10T12:00:12.500Z",
+      "ad": {
+        "unit_id": "1203948571_2049581",
+        "network": "META"
+      },
+      "price": 0.0184,
+      "name": "ad.fill",
+      "price_type": "bid",
+      "currency": "USD",
+      "placement": {"name": "home_banner"},
+      "auction": {"id": "a3f1c9d2-77b4-4e01-8c6a-2d5b9f0e1a83"}
+    },
+    {
+      "chain": {
+        "tier": 2,
+        "size": 4
+      },
+      "occurredAt": "2026-09-10T12:00:15.100Z",
+      "ad": {
+        "format": "banner",
+        "unit_id": "R-M-1884412-3",
+        "network": "YANDEX"
+      },
+      "name": "ad.load_failed",
+      "placement": {"name": "home_banner"},
+      "error": {"message": "No ad to show (code 4)"},
+      "auction": {"id": "a3f1c9d2-77b4-4e01-8c6a-2d5b9f0e1a83"}
+    },
+    {
+      "revenue": {
+        "amount": 0.0184,
+        "precision": "auction",
+        "amount_usd": 0.0184,
+        "currency": "USD"
+      },
+      "occurredAt": "2026-09-10T12:00:14.400Z",
+      "ad": {
+        "format": "banner",
+        "unit_id": "1203948571_2049581",
+        "network": "meta"
+      },
+      "name": "ad.revenue",
+      "placement": {"name": "home_banner"},
+      "auction": {"id": "a3f1c9d2-77b4-4e01-8c6a-2d5b9f0e1a83"}
+    },
+    {
+      "occurredAt": "2026-09-10T12:00:27.700Z",
+      "ad": {
+        "unit_id": "1203948571_2049581",
+        "network": "META"
+      },
+      "name": "ad.click",
+      "placement": {"name": "home_banner"},
+      "auction": {"id": "a3f1c9d2-77b4-4e01-8c6a-2d5b9f0e1a83"}
+    }
+  ],
+  "network": {
+    "carrier": "Telenor",
+    "connection": {"type": "wifi"}
+  }
+}

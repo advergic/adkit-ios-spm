@@ -1,0 +1,504 @@
+{
+    "mediation": {
+        "version": 3,
+        "publishedAt": "2026-08-13T09:55:00.572916",
+        "note": "republish of v1: placement sizes + meta bidding band (v2 predated both)",
+        "placements": [
+            {
+                "id": "pl_1786543000101",
+                "name": "banner_320x50",
+                "format": "banner",
+                "size": {
+                    "width": 320,
+                    "height": 50
+                },
+                "bidding": [
+                    {
+                        "network": "meta",
+                        "adUnitId": "1413796817472685_1413797700805930",
+                        "label": "meta_banner",
+                        "floor": null,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    }
+                ],
+                "waterfall": [
+                    {
+                        "network": "admob",
+                        "adUnitId": "ca-app-pub-3940256099942544/6300978111",
+                        "label": "admob_banner",
+                        "floor": 0.5,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "yandex",
+                        "adUnitId": "R-M-19736270-1",
+                        "label": "yandex_banner",
+                        "floor": 0.4,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "pangle",
+                        "adUnitId": "983500733",
+                        "label": "pangle_banner",
+                        "floor": 0.3,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "liftoff",
+                        "adUnitId": "DEFAULT-2853083",
+                        "label": "liftoff_banner",
+                        "floor": 0.25,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "inmobi",
+                        "adUnitId": "10000774678",
+                        "label": "inmobi_banner",
+                        "floor": 0.2,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "chartboost",
+                        "adUnitId": "homeScreen",
+                        "label": "chartboost_banner",
+                        "floor": 0.15,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pl_1786543000102",
+                "name": "banner_300x250",
+                "format": "banner",
+                "size": {
+                    "width": 300,
+                    "height": 250
+                },
+                "bidding": [
+                    {
+                        "network": "meta",
+                        "adUnitId": "1413796817472685_1413797697472597",
+                        "label": "meta_mrec",
+                        "floor": null,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    }
+                ],
+                "waterfall": [
+                    {
+                        "network": "admob",
+                        "adUnitId": "ca-app-pub-3940256099942544/6300978111",
+                        "label": "admob_mrec",
+                        "floor": 0.5,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "yandex",
+                        "adUnitId": "R-M-19736270-1",
+                        "label": "yandex_mrec",
+                        "floor": 0.4,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "liftoff",
+                        "adUnitId": "INLINE-4970271",
+                        "label": "liftoff_mrec",
+                        "floor": 0.25,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pl_1786543000103",
+                "name": "banner_adaptive",
+                "format": "banner",
+                "size": null,
+                "adaptive": true,
+                "bidding": [],
+                "waterfall": [
+                    {
+                        "network": "chartboost",
+                        "adUnitId": "gameScreen",
+                        "label": "chartboost_adaptive_banner",
+                        "floor": 0.15,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pl_1786543000104",
+                "name": "interstitial",
+                "format": "interstitial",
+                "size": null,
+                "bidding": [],
+                "waterfall": [
+                    {
+                        "network": "admob",
+                        "adUnitId": "ca-app-pub-3940256099942544/1033173712",
+                        "label": "admob_interstitial",
+                        "floor": 0.5,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "meta",
+                        "adUnitId": "1413796817472685_1413797687472598",
+                        "label": "meta_interstitial",
+                        "floor": 0.45,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "yandex",
+                        "adUnitId": "R-M-19736270-2",
+                        "label": "yandex_interstitial",
+                        "floor": 0.4,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "pangle",
+                        "adUnitId": "983500744",
+                        "label": "pangle_interstitial",
+                        "floor": 0.3,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "liftoff",
+                        "adUnitId": "INTERSTITIAL-2894502",
+                        "label": "liftoff_interstitial",
+                        "floor": 0.25,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "chartboost",
+                        "adUnitId": "mainMenu",
+                        "label": "chartboost_interstitial",
+                        "floor": 0.15,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pl_1786543000105",
+                "name": "rewarded",
+                "format": "rewarded",
+                "size": null,
+                "bidding": [],
+                "waterfall": [
+                    {
+                        "network": "admob",
+                        "adUnitId": "ca-app-pub-3940256099942544/5224354917",
+                        "label": "admob_rewarded",
+                        "floor": 0.5,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "meta",
+                        "adUnitId": "1413796817472685_1413797694139264",
+                        "label": "meta_rewarded_interstitial",
+                        "floor": 0.45,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "yandex",
+                        "adUnitId": "R-M-19736270-3",
+                        "label": "yandex_rewarded",
+                        "floor": 0.4,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "pangle",
+                        "adUnitId": "983500752",
+                        "label": "pangle_rewarded",
+                        "floor": 0.3,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "liftoff",
+                        "adUnitId": "REWARDED-8351846",
+                        "label": "liftoff_rewarded",
+                        "floor": 0.25,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "chartboost",
+                        "adUnitId": "levelComplete",
+                        "label": "chartboost_rewarded",
+                        "floor": 0.15,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pl_1786543000106",
+                "name": "app_open",
+                "format": "app_open",
+                "size": null,
+                "bidding": [],
+                "waterfall": [
+                    {
+                        "network": "admob",
+                        "adUnitId": "ca-app-pub-3940256099942544/9257395921",
+                        "label": "admob_app_open",
+                        "floor": 0.5,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "yandex",
+                        "adUnitId": "R-M-19736270-5",
+                        "label": "yandex_app_open",
+                        "floor": 0.4,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "liftoff",
+                        "adUnitId": "APPOPEN-5466047",
+                        "label": "liftoff_app_open",
+                        "floor": 0.25,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "pangle",
+                        "adUnitId": "890175620",
+                        "label": "pangle_app_open",
+                        "floor": 0.3,
+                        "enabled": false,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pl_1786543000107",
+                "name": "native",
+                "format": "native",
+                "size": null,
+                "bidding": [],
+                "waterfall": [
+                    {
+                        "network": "admob",
+                        "adUnitId": "ca-app-pub-3940256099942544/2247696110",
+                        "label": "admob_native",
+                        "floor": 0.5,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "meta",
+                        "adUnitId": "1413796817472685_1413797684139265",
+                        "label": "meta_native",
+                        "floor": 0.45,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "yandex",
+                        "adUnitId": "R-M-19736270-6",
+                        "label": "yandex_native",
+                        "floor": 0.4,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "pangle",
+                        "adUnitId": "983500753",
+                        "label": "pangle_native",
+                        "floor": 0.3,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    },
+                    {
+                        "network": "liftoff",
+                        "adUnitId": "NATIVE-3339529",
+                        "label": "liftoff_native",
+                        "floor": 0.25,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pl_1786543000108",
+                "name": "native_banner",
+                "format": "native",
+                "size": {
+                    "width": 320,
+                    "height": 50
+                },
+                "bidding": [],
+                "waterfall": [
+                    {
+                        "network": "meta",
+                        "adUnitId": "1413796817472685_1413797690805931",
+                        "label": "meta_native_banner",
+                        "floor": 0.45,
+                        "enabled": true,
+                        "geo": {
+                            "mode": "all",
+                            "countries": []
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "connectedNetworks": {
+        "meta": {},
+        "admob": {
+            "app_id": "ca-app-pub-3940256099942544~3347511713"
+        },
+        "inmobi": {
+            "account_id": "e64c1b97fbb04ae8ba5adc1f4e9323f6"
+        },
+        "pangle": {
+            "app_id": "8876537"
+        },
+        "yandex": {},
+        "liftoff": {
+            "app_id": "6a73135c652150e25306d19b"
+        },
+        "chartboost": {
+            "app_id": "6a79b47e4dd256013f1fa490"
+        }
+    },
+    "connectedMmps": [
+        {
+            "mmpId": "adjust",
+            "credentials": {
+                "app_token": "«adjust app token»",
+                "environment": "production"
+            },
+            "formats": []
+        },
+        {
+            "mmpId": "firebase",
+            "credentials": {},
+            "formats": []
+        }
+    ],
+    "avPublisher": {
+        "name": "Haider Zaman"
+    }
+}

@@ -1,0 +1,15 @@
+.DS_Store
+.build/
+.swiftpm/*
+!.swiftpm/xcode/
+.swiftpm/xcode/*
+!.swiftpm/xcode/xcshareddata/
+DerivedData/
+xcuserdata/
+Pods/
+Example/*.xcodeproj
+*.xcworkspace/xcuserdata/
+Secrets.xcconfig
+Example-Pods/Pods/
+Example-Pods/*.xcodeproj
+Example-Pods/*.xcworkspace
