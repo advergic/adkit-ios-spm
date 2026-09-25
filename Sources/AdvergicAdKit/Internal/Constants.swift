@@ -9,7 +9,7 @@ import Foundation
 @usableFromInline
 enum Constants {
 
-    static let sdkVersion = "0.1.2"
+    static let sdkVersion = "0.1.3"
 
     /// Selects the environment for every Advergic endpoint at once.
     @usableFromInline static let isDevMode = false

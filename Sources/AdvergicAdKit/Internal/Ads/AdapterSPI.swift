@@ -30,8 +30,13 @@ public protocol AdvergicAdsInitializer: AnyObject {
 /// whether the outcome arrives before or after they ask.
 ///
 /// Subclasses override `start()` and end it with `markReady()` or `markUnavailable(_:)`.
+///
+/// Inherits `NSObject` so a subclass can act as an Objective-C delegate. Several networks
+/// hand back their initialization result through one — Unity Ads' `UnityAdsInitializationDelegate`
+/// is the first — and those protocols inherit `NSObjectProtocol`, which Swift will not synthesise
+/// on a class that is not an `NSObject`.
 @_spi(AdvergicAdapters)
-open class AdvergicBaseInitializer: AdvergicAdsInitializer {
+open class AdvergicBaseInitializer: NSObject, AdvergicAdsInitializer {
 
     private struct Waiter {
         let onReady: () -> Void
@@ -48,6 +53,7 @@ open class AdvergicBaseInitializer: AdvergicAdsInitializer {
 
     public init(networkName: String) {
         self.networkName = networkName
+        super.init()
     }
 
     public final func initialize() {
