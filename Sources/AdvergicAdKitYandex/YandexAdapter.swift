@@ -20,9 +20,12 @@ final class YandexAdapter: NSObject, AdvergicNetworkAdapter {
         YandexInitializer(verboseLogging: setup.enableLogging)
     }
 
-    func makeBannerAdapter() -> AdvergicBannerAdapter { YandexBannerAdapter() }
-    func makeFullscreenAdapter() -> AdvergicFullscreenAdapter { YandexFullscreenAdapter() }
-    func makeNativeAdapter() -> AdvergicNativeAdapter { YandexNativeAdapter() }
+    // Yandex's delegate protocols are @MainActor, so each adapter conforming to one is too.
+    // AdsProvider only builds adapters inside awaitReady's callback, which runs on the main
+    // thread, so the factories can assert that rather than become async.
+    func makeBannerAdapter() -> AdvergicBannerAdapter { MainActor.assumeIsolated { YandexBannerAdapter() } }
+    func makeFullscreenAdapter() -> AdvergicFullscreenAdapter { MainActor.assumeIsolated { YandexFullscreenAdapter() } }
+    func makeNativeAdapter() -> AdvergicNativeAdapter { MainActor.assumeIsolated { YandexNativeAdapter() } }
 
     /// Yandex's debug panel: adapter wiring and initialization state per mediated network.
     func showDebugPanel(from viewController: UIViewController) -> Bool {
